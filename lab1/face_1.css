@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background: #070707;
+  
+}
+.top_bar {
+  margin-right: 5px;
+  text-align: center;  
+}
+a[href] 
+{
+  color: #0099ef;
+  text-decoration-line: underline;
+  text-indent: 1.5em;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 128px;
+  line-height: 100px;
+  text-align: center;
+}
+h2 {
+  width: 255px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 150px;
+  padding-top: 30px;
+  color: #ffffff;
+  
+}
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  
+}
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+  color: #ffffff;
+  
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+  
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  color: #ffffff;
+  
+}
+
+.advantages-list {
+  padding: 0;
+  font-size: 24px;
+  line-height: 36px; 
+}
+
+.image
+{
+    
+    width: 100% ;
+    height: 1800px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.banners
+{
+    font-size: 34px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    padding-bottom: 45px;
+}
+.banner1
+{
+    text-decoration-line: underline;
+    margin-top: 45px;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #ffffff;
+}
+.banner2
+{
+    text-decoration-line: underline;
+    margin-top: 45px;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #ffffff;
+}
+.banner3
+{
+    text-decoration-line: underline;
+    margin-top: 45px;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #ffffff;
+}
+
+
+.contact{
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  color: #ffffff;
+  text-align: center; 
+}
+
+.contact-list{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+
+
+
+
