@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Калькулятор</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="grid">
+      <input @keyup.enter="calc()" type="text" v-model="result" placeholder="0">
+      <button @click="input(num)" class="cell num" v-for="num in numbers">{{num}}</button>
+      <button @click="input(op)" class="cell op" v-for="op in operations">{{op}}</button>
+      <button @click="reset()" class="cell op">C</button>
+      <button @click="percent()" class="cell op">%</button>
+      <button @click="fact()" class="cell op">x!</button>
+      <button @click="core()" class="cell op">-1</button>
+      <button @click="sqr()" class="cell op">^2</button>
+      <button @click="sqrt()" class="cell op">&radic;x</button>
+      <button @click="back()" class="cell op">&lArr;</button>
+      <button @click="calc()" class="cell op">=</button>
+    </div>
+  </div>
+</body>
+   <script src="main.js"></script>
+</html>
